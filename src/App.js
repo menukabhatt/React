@@ -1,29 +1,10 @@
-import React from 'react'
-import Header from './components/Header'
-import Displaysection from './pages/home/Displaysection'
-import Tech from './pages/home/Tech'
-import Whoami from './pages/home/Whoami'
-import Footer from './components/Footer'
 
+import React from 'react'
 
 const App = () => {
   return (
-
-
-    <div className='sv h-[200px] w-[200px] border-2 border-black'>
-
-      <svg viewBox='10 10 200 200'>
-        <circle r={50} cx={100} cy={100} fill='red' />
-      </svg>
+    <div>
       
-
-      <Header />
-      <Displaysection />
-      <Tech />
-      <Whoami />
-      <Footer />
-
-
     </div>
   )
 }
