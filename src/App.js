@@ -8,13 +8,21 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div >
+
+
+    <div className='sv h-[200px] w-[200px] border-2 border-black'>
+
+      <svg viewBox='10 10 200 200'>
+        <circle r={50} cx={100} cy={100} fill='red' />
+      </svg>
+      
+
       <Header />
-      <Displaysection/>
-      <Tech/>
-      <Whoami/>
-      <Footer/>
-    
+      <Displaysection />
+      <Tech />
+      <Whoami />
+      <Footer />
+
 
     </div>
   )
