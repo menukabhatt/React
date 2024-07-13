@@ -11,7 +11,7 @@ function Tech() {
        <DiReact size={200} className='animate-bounce hover:text-red-600'/>
        <DiBootstrap size={200}/>
        <DiJava size={200}/>
-       <DiAngularSimple size={200} className='hover:scale-125 hover:text-pink-600 transition-all delay-1000'/>
+       <DiAngularSimple size={200} className='hover:scale-125 hover:text-pink-600 transition-all'/>
        <DiJavascript size={200} />
        <DiTravis size={200} className='animate-bounce'/>
       
